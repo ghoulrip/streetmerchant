@@ -14,7 +14,6 @@ export const AmazonFr: Store = {
     },
     maxPrice: {
       container: '#priceblock_ourprice',
-      euroFormat: true,
     },
     outOfStock: [
       {
@@ -31,6 +30,60 @@ export const AmazonFr: Store = {
       url: 'https://www.amazon.fr/dp/B07PW9VBK5',
     },
     {
+      brand: 'kfa2',
+      model: 'sg',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LNW8RR4',
+    },
+    {
+      brand: 'gainward',
+      model: 'phantom gs',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LQ6F4QR',
+    },
+    {
+      brand: 'gainward',
+      model: 'phoenix',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LQ4XF6Z',
+    },
+    {
+      brand: 'gainward',
+      model: 'phoenix gs',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LQBLGGZ',
+    },
+    {
+      brand: 'palit',
+      model: 'gaming pro',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LDS72P2',
+    },
+    {
+      brand: 'palit',
+      model: 'gaming pro',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LDT6HQ5',
+    },
+    {
+      brand: 'pny',
+      model: 'xlr8 revel',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08HBJB7YD',
+    },
+    {
+      brand: 'pny',
+      model: 'uprising',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08HBF5L3K',
+    },
+    {
+      brand: 'msi',
+      model: 'gaming x trio',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LNPPCWJ',
+    },
+    {
       brand: 'msi',
       model: 'gaming x trio',
       series: '3080',
@@ -44,9 +97,27 @@ export const AmazonFr: Store = {
     },
     {
       brand: 'evga',
+      model: 'xc gaming',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08L3QZP7W',
+    },
+    {
+      brand: 'evga',
+      model: 'xc gaming',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08L3Q41SM',
+    },
+    {
+      brand: 'evga',
       model: 'ftw3',
       series: '3080',
       url: 'https://www.amazon.fr/dp/B08HR3DPGW',
+    },
+    {
+      brand: 'evga',
+      model: 'ftw3 ultra',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08L8L9TCZ',
     },
     {
       brand: 'evga',
@@ -69,8 +140,56 @@ export const AmazonFr: Store = {
     {
       brand: 'evga',
       model: 'xc3 black',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08L3QCZKZ',
+    },
+    {
+      brand: 'evga',
+      model: 'xc3 black',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LW46GH2',
+    },
+    {
+      brand: 'evga',
+      model: 'xc3 black',
       series: '3080',
       url: 'https://www.amazon.fr/dp/B08HR6FMF3',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LNY8P5L',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'aorus',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LNY8P5L',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'vision oc',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08M13DXSZ',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'vision oc',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LNWPYRS',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'gaming oc',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08KY266MG',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'gaming oc',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08KHL21CV',
     },
     {
       brand: 'gigabyte',
@@ -81,8 +200,56 @@ export const AmazonFr: Store = {
     {
       brand: 'gigabyte',
       model: 'eagle oc',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08MDCF8Z8',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'eagle oc',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08KXZV626',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'eagle oc',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08KHL2J5X',
+    },
+    {
+      brand: 'gigabyte',
+      model: 'eagle oc',
       series: '3080',
       url: 'https://www.amazon.fr/dp/B08HJS2JLJ',
+    },
+    {
+      brand: 'asus',
+      model: 'strix',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08L8JNTXQ',
+    },
+    {
+      brand: 'asus',
+      model: 'strix',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08HT7PR9Y',
+    },
+    {
+      brand: 'asus',
+      model: 'dual',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08KHFZN9P',
+    },
+    {
+      brand: 'asus',
+      model: 'dual',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08HSJ1622',
+    },
+    {
+      brand: 'asus',
+      model: 'tuf',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LLG9KQT',
     },
     {
       brand: 'asus',
@@ -95,6 +262,24 @@ export const AmazonFr: Store = {
       model: 'tuf oc',
       series: '3080',
       url: 'https://www.amazon.fr/dp/B08HH5WF97',
+    },
+    {
+      brand: 'zotac',
+      model: 'twin edge',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08HRBR7K9',
+    },
+    {
+      brand: 'zotac',
+      model: 'twin edge',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LBVNKT1',
+    },
+    {
+      brand: 'zotac',
+      model: 'twin edge',
+      series: '3070',
+      url: 'https://www.amazon.fr/dp/B08LF1CWT2',
     },
     {
       brand: 'zotac',
